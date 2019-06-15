@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2018",
+    "lib": ["es2018", "dom"],
+    "types": ["jest"]
+  },
+  "include": ["src/*.ts", "src/components/Sum/*.ts"],
+  "exclude": ["*.test.ts"]
+}
